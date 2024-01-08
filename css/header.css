@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+
+object {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-right: 50px;
+}
+
+.left {
+
+
+    background-color: lightgray;
+    min-width: 33%;
+    justify-content: space-around;
+
+}
+
+.left div {
+    display: inline-flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.div {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 110px;
+}
+
+.right {
+    width: 10em;
+    display: inline-flex;
+    justify-content: space-around;
+
+}
+
+.left a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 22em;
+
+}

@@ -1,5 +1,6 @@
 body {
     margin: 0;
+
 }
 
 object {
@@ -14,7 +15,7 @@ object {
 .left {
 
 
-    background-color: lightgray;
+
     min-width: 33%;
     justify-content: space-around;
 

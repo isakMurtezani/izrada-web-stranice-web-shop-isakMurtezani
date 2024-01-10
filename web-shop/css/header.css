@@ -46,6 +46,7 @@ object {
     
 
 }
+.right 
 
 .left a {
     text-decoration: none;
@@ -58,20 +59,4 @@ object {
     width: 100px;
     height: 100px;
     margin-right: 22em;
-
-}
-.sb-search {
-	position: relative;
-	margin-top: 10px;
-	width: 0%;
-	min-width: 60px;
-	height: 60px;
-	float: right;
-	overflow: hidden;
-
-	-webkit-transition: width 0.3s;
-	-moz-transition: width 0.3s;
-	transition: width 0.3s;
-
-	-webkit-backface-visibility: hidden;
 }

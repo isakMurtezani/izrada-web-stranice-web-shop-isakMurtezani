@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () { 
     function adjustIframeHeight(iframe) {
         iframe.onload = function () {
             var frameContent = iframe.contentDocument || iframe.contentWindow.document;

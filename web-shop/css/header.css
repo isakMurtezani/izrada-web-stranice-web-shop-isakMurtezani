@@ -3,6 +3,8 @@ body {
 
 }
 
+
+
 object {
     display: flex;
     width: 100%;
@@ -11,6 +13,7 @@ object {
     flex-wrap: nowrap;
     padding-right: 50px;
 }
+
 
 .left {
 
@@ -23,8 +26,9 @@ object {
 
 .left div {
     display: inline-flex;
-    padding: 10px;
+    padding: 30px;
     margin: 10px;
+    
 }
 
 .div {
@@ -39,13 +43,15 @@ object {
     width: 10em;
     display: inline-flex;
     justify-content: space-around;
+    
 
 }
 
 .left a {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: black;
+    font-family: sans-serif;
 }
 
 .logo {
@@ -53,4 +59,19 @@ object {
     height: 100px;
     margin-right: 22em;
 
+}
+.sb-search {
+	position: relative;
+	margin-top: 10px;
+	width: 0%;
+	min-width: 60px;
+	height: 60px;
+	float: right;
+	overflow: hidden;
+
+	-webkit-transition: width 0.3s;
+	-moz-transition: width 0.3s;
+	transition: width 0.3s;
+
+	-webkit-backface-visibility: hidden;
 }

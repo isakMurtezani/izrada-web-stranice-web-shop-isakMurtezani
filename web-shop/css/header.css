@@ -18,7 +18,7 @@ object {
 .left {
     min-width: 33%;
     justify-content: space-around;
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: black;
     font-family: sans-serif;
 
@@ -30,6 +30,11 @@ object {
     margin: 10px;
     
 }
+.center {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
 
 .div {
     display: inline-flex;
@@ -40,19 +45,44 @@ object {
 }
 
 .right {
+    min-width: 33%;
     width: 10em;
     display: inline-flex;
     justify-content: space-around;
+    height: 110px;
+    align-items: center;
     
 
 }
 
 .left div a {
     text-decoration: none;
+    color: black;
+    
 }
 
 .logo {
     width: 100px;
     height: 100px;
-    margin-right: 22em;
+}
+form{ display: inline-flex;
+      
+
+}
+form input{ 
+    border: none;
+    outline: none;
+    background-color: lightgray;
+    
+}
+
+button{ 
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    
 }

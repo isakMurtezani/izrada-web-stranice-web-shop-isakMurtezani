@@ -12,6 +12,7 @@ object {
     align-items: center;
     flex-wrap: nowrap;
     padding-right: 50px;
+    background-color: white;
 }
 
 
@@ -58,7 +59,12 @@ object {
 .left div a {
     text-decoration: none;
     color: black;
+
     
+}
+.left div:hover{
+    transform: scale(1.2);
+
 }
 
 .logo {

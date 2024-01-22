@@ -8,16 +8,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../web-shop/css/general.css">
+    <script src="../js/top-scroll.js" defer></script>
     
     
 </head>
 <body>
-    <header>
+    <header >
         <iframe src="../web-shop/partials/header.html" width="100%" class="auto-height-iframe" frameborder="0" scrolling="no"></iframe>
     </header>
 
 
-    <div class="frontpage-wrapper">
+    <div id="top" class="frontpage-wrapper">
         
         <div class="headline-wrapper">
             <div class="video-container">
@@ -32,7 +33,7 @@
                  <div class="content">
                
             
-                <h1>Handbag Skincare and more : BOJ</h1>
+                <h1>Hanbang Skincare and more : BOJ</h1>
                 <p>Dive into our curated collection of fan-favorite Hanbang skincare products. Loved for their proven efficacy, elevate your skincare routine with these must-haves! </p>
                 <a href="../web-shop/shop.html"><button class="shop-button">SHOP BEST SELLERS </button></a>
                 
@@ -82,13 +83,27 @@
     </div>
 
     <div class="article-container">
+        <div class="article left">
+            
+            <p id="parag">Transform your Suncare to Skincare</p>
+
+            <p > A lot of people attribute how quickly their skin ages to their genetics, but it turns out that external factors play a huge role in skin aging. Sun exposure can account for almost 90 percent of premature aging and other factors such as pollution and smoking can factor into how quickly your skin ages.</p>
+            <a  href="../web-shop/shop.html"><button class="shop-button">SHOP BEST SELLERS </button></a>
+            
+        </div>
+
+        <div class="article right">
+            <img   width="900px" height="900px" src="../web-shop/images/products/skin+rock.webp" alt="ablablabla">
+
+
+        </div>
 
     </div>
 
     
     
     
-
+    <button id="myBtn" title="Go to top"><a href="#top"><img src="../web-shop/images/arrow-up.svg" alt="blabla"></a></button> 
     <footer>
         <iframe src="../web-shop/partials/footer.html" width="100%" class="auto-height-iframe" frameborder="0" scrolling="no"></iframe>
     </footer>

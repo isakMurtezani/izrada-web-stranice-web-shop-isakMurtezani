@@ -13,7 +13,7 @@ body {margin: 0;}
 header{
     position: sticky;
     top: 0;
-    z-index: 101;
+    z-index: 105;
     height: 6.25rem;
     
 }
@@ -104,6 +104,11 @@ img , figcaption{
     justify-content: space-around;
     overflow: visible;
 }
+.image-grid img:hover{
+    transform: scale(0.9);
+    transition: 100ms ease-in-out;
+
+}
 
 figcaption{
     width: 480px;
@@ -135,8 +140,9 @@ figcaption{
 .left {
     text-align: left;
     letter-spacing: 1px;
+    padding-left: 10px;
 }
-.left :first-child{
+  #parag{
     font-size: 1.875rem;
     font-family: 'Playfair Display';
   }
@@ -173,9 +179,20 @@ figcaption{
 #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
     }
+    .shop-button2{
+    text-align: center;
+    
+    width: 10.813rem;
+    height: 2.5rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: rgb(243, 134, 115);
+    color: white;
+    letter-spacing: 1px;
+    }
+
 
 
 /*rgb(99, 98, 98) siva boja za cijene
 //perhaps a kalash may come, to be decided..
-    
-    

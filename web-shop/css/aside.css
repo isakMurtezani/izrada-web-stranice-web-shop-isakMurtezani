@@ -1,0 +1,26 @@
+h2{
+    color: whitesmoke;
+  }
+
+.shop-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+    width: 230px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: rgb(167, 161, 161);
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+label{
+    padding-top: 10px;
+}
+
+  
+  
+  

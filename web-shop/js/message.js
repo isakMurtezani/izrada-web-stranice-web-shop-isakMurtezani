@@ -13,6 +13,6 @@ function splice() {
 
 
     document.getElementById("rotating-message").innerHTML = miao;
-    console.log(miao);
+    
 }
 setInterval(splice, 250);

@@ -1,0 +1,26 @@
+.title{
+    width: 100%;
+    height: auto;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title h1{
+    font-weight: 100;
+    padding: 1rem;
+}
+.stores-container{
+    width: 100%;
+
+}
+.random-statement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-weight: 80;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.658);
+}

@@ -1,9 +1,4 @@
-.auto-height-iframe1 {
-    border: none;
-    margin: 0;
-}
-
-.auto-height-iframe {
+.auto-height-iframe, .auto-height-iframe1  {
     border: none;
     margin: 0;
 }

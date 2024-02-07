@@ -107,6 +107,7 @@ img , figcaption{
 .image-grid img:hover{
     transform: scale(0.9);
     transition: 100ms ease-in-out;
+    opacity: 0.7;
 
 }
 

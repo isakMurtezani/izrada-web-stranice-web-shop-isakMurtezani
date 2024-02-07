@@ -1,34 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Retailers : BOJ</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../web-shop/css/retailers.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
 
-
-</head>
-<body>
-    <header >
-        <iframe src="../web-shop/partials/header.html" width="100%" class="auto-height-iframe" frameborder="0" scrolling="no"></iframe>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../web-shop/css/retailers.css" />
+  </head>
+  <body>
+    <header>
+      <iframe
+        src="../web-shop/partials/header.html"
+        width="100%"
+        class="auto-height-iframe"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
     </header>
 
     <div class="title"><h1>Beauty Of Joseon Retailers</h1></div>
 
-    <div class="random-statement"><p>Discover Beauty of Joseon's exclusive offerings at the BOJ Flagship Store and explore our global network of authorized online/offline retailers by country</p></div>
-
-    <div class="stores-container">
-        <div class="flagship store"></div>
-        <div class="authorized store"></div>
-
+    <div class="random-statement">
+      <p>
+        Discover Beauty of Joseon's exclusive offerings at the BOJ Flagship
+        Store and explore our global network of authorized online/offline
+        retailers by country
+      </p>
     </div>
 
+    <div class="stores-container">
+      <div class="flagship store">
+        <h1>BOJ Flagship Store</h1>
+        <div id="map" style="width: 600px; height: 400px"></div>
+      </div>
+      <div class="authorized store"><h1>Authorized Retailers</h1></div>
+    </div>
 
     <footer>
-        <iframe src="../web-shop/partials/footer.html" width="100%" class="auto-height-iframe" frameborder="0" scrolling="no"></iframe>
+      <iframe
+        src="../web-shop/partials/footer.html"
+        width="100%"
+        class="auto-height-iframe"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
     </footer>
-    
-</body>
+
+    <script>
+      const map = L.map("map").setView([37.582706, 126.981975], 13);
+
+      const tiles = L.tileLayer(
+        "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+        {
+          maxZoom: 19,
+          attribution:
+            '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        }
+      ).addTo(map);
+      var marker = L.marker([37.582706, 126.981975]).addTo(map);
+    </script>
+  </body>
 </html>

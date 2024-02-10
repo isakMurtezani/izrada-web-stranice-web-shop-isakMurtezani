@@ -1,30 +1,25 @@
-h2{
-    color: black;
-  }
-  h3{
-    color: black;
-  }
-
-.shop-container{
-    display: flex;
-    flex-direction: column;
-    height: 100%; 
-    width: 230px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color: rgb(240, 234, 234);
-    overflow-x: hidden;
-    padding-top: 20px;
-    padding-left: 20px;
-
+h2 {
+  color: black;
 }
-label{
-    padding-top: 10px;
-    font-size: 0.8125rem;
+h3 {
+  color: black;
 }
 
-  
-  
-  
+.shop-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 230px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(240, 234, 234);
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+label {
+  padding-top: 10px;
+  font-size: 0.8125rem;
+}

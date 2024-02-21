@@ -1,4 +1,4 @@
-let text = "piaopiaopiaopiaopiaopiaopiaopiaopiaopiaopiaopiaopiaopiaopiaopiaopiaopiaopiaopiao"
+let text = "piaopiaopiaopiaopiaopiaopiaopiaopiaopiaopLAOLAOLAOLAOLAOLAOLAOiaopiaopiaopiaopiaopiaopiaopiaopiaopiao"
 const nasText = text.split("")
 
 for (i = 0; i < nasText.length; i++) {

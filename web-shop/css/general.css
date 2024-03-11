@@ -158,7 +158,7 @@ figcaption{
     justify-content: flex-end;
 
 }
-#myBtn {
+#scrollToTopBtn {
     position: fixed; 
     bottom: 20px; 
     right: 30px; 
@@ -172,12 +172,12 @@ figcaption{
     border-radius: 10px; 
     font-size: 18px; 
     }
-#myBtn a{
+#scrollToTopBtn a{
     text-decoration: none;
     color: white;
     }
     
-#myBtn:hover {
+#scrollToTopBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
     }
     .shop-button2{

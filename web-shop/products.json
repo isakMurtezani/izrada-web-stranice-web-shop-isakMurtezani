@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Dynasty Cream",
+    "price": 24,
+    "image": "../web-shop/images/products/dynasty-cream.webp"
+  },
+  {
+    "id": 2,
+    "name": "Revive Serum : Ginseng + Snail Mucin",
+    "price": 18,
+    "image": "../web-shop/images/products/revive-serum.webp"
+  },
+  {
+    "id": 3,
+    "name": "Glow Serum : Propolis + Niacinamide",
+    "price": 17,
+    "image": "../web-shop/images/products/glow-serum.webp"
+  },
+  {
+    "id": 4,
+    "name": "Ginseng Essence Water",
+    "price": 17,
+    "image": "../web-shop/images/products/ginseng-water.webp"
+  },
+  {
+    "id": 5,
+    "name": "Relief Sun : Rice + Probiotics (SPF50+ PA++++)",
+    "price": 18,
+    "image": "../web-shop/images/products/relief-sun.webp"
+  },
+  {
+    "id": 6,
+    "name": "Green Plum Cleanser",
+    "price": 13,
+    "image": "../web-shop/images/products/green-plum-cleanser.webp"
+  },
+  {
+    "id": 7,
+    "name": "Red Bean Refreshing Pore Mask",
+    "price": 19,
+    "image": "../web-shop/images/products/radiance-cleansing-balm.webp"
+  },
+  {
+    "id": 8,
+    "name": "Radiance Cleansing Balm",
+    "price": 15,
+    "image": "../web-shop/images/products/red-ben-mask.webp"
+  }
+]
